@@ -1,0 +1,132 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #010135;
+  position: sticky;
+  color: white !important;
+  top: 0;
+  z-index: 9;
+  box-shadow: 0 0 5vh white;
+}
+
+.header__logo {
+  width: 100px;
+  /* object-fit: contain; */
+  margin: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo > img {
+  width: 90px;
+  height: 55px;
+}
+
+.header__search {
+  display: flex;
+  flex: 0.7;
+}
+
+.header__searchInput {
+  height: 5vh;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  outline: none;
+  border-radius: 0.2vh;
+}
+
+.header__searchIcon {
+  display: block;
+  padding: 3px;
+  width: 6vh !important;
+  height: 5vh !important;
+  /* background-color: #a8ec10; */
+  background-color: #00fefc;
+  margin-left: -3vh;
+  border-radius: 0 0.2vh 0.2vh 0;
+  color: white;
+  cursor: pointer;
+  /* background-color: #010135; */
+}
+
+.header__optionLineOne {
+  font-size: 13px;
+}
+
+.header__optionLineTwo {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__nav:hover {
+  background-color: transparent !important;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: transparent !important;
+  align-items: center;
+}
+
+.header__option:hover {
+  background-color: transparent !important;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.header__optionBasket:hover {
+  background-color: #010135 !important;
+  color: white !important;
+}
+
+/* .header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+
+.dropdown__menu {
+  padding: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.dropdown__menu .items {
+  padding: 1.5vh;
+  cursor: pointer;
+}
+.dropdown__menu .items:nth-child(2):hover {
+  background-color: honeydew;
+}
+.dropdown__menu .items:nth-child(3):hover {
+  background-color: honeydew;
+}
+
+.header__loginDropdown {
+  display: none;
+  position: absolute;
+  top: 7.8vh;
+  right: 10vh;
+  background-color: white;
+  box-shadow: 3px 3px 10px gray;
+  width: 35vh;
+  color: gray;
+  border-radius: 0 0 5px 5px;
+}

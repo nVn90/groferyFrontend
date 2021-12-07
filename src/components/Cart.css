@@ -1,0 +1,116 @@
+.cart__box {
+  position: fixed;
+  top: 7.8vh;
+  height: 90vh;
+  width: 380px;
+  background-color: rgb(210, 232, 233);
+  box-shadow: 0 0 3px gray;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  right: -380px;
+  transition: all 0.3s;
+  z-index: 999;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.cart__header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  align-items: center;
+  height: 4vw;
+  background-color: #010135;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px 0 0 0;
+}
+
+.cart__title {
+  margin: 0;
+  padding: 0;
+}
+
+.cart__subTotal {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.cart__subTotalLineOne {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart__itemTable {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.cart__itemImg img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.cart__itemDetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.product__title2 {
+  margin-top: 25px;
+}
+
+.cart__itemAmount {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* background-color: green; */
+}
+
+.strikeLine {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.cart__Quantity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+.cart__Quantity > button {
+  border-radius: 50%;
+  display: block;
+  outline: none;
+  border: 2px solid #a8ec10;
+  color: white;
+  width: 25px;
+  height: 25px;
+  /* margin: 10px; */
+}
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #010135;
+  border-radius: 0px;
+} */

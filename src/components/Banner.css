@@ -1,0 +1,29 @@
+.banner {
+  margin: auto;
+}
+
+.img-fluid {
+  width: 100% !important;
+  height: 70vh !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .img-fluid {
+    width: 100% !important;
+    height: 50vh !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .img-fluid {
+    width: 100% !important;
+    height: 40vh !important;
+  }
+}
+/* 
+@media screen and (max-width: 700px) {
+  .img-fluid {
+    width: 100% !important;
+    height: 20vh !important;
+  }
+} */

@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__productContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.home__productSectionOne {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vw;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#popUp {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  z-index: 99;
+  overflow: hidden;
+}
